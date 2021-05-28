@@ -27,6 +27,9 @@ public class KardexServiceImpl implements KardexService {
   @Autowired
   private ConfigProperties configProperties;
 
+  /**
+   * setupInit.
+   */
   @PostConstruct
   public void setupInit() {
 
